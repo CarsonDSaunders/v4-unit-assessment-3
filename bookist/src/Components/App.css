@@ -1,0 +1,141 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00A7E1;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.header-text {
+  font-family: 'Newsreader', serif;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px 0px 100px;
+}
+
+.book-list-section {
+  width: 75%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: #97c0d6;
+}
+
+.book-list { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book-disp {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 25em;
+  width: 25em;
+  text-align: center;
+}
+
+.book-info { 
+  line-height: 2em;
+  width: 20em;
+}
+
+.book-br {
+  margin: 2em;
+}
+
+.book-cover { 
+  cursor: pointer;
+  width: 10em;
+  height: 13em;
+}
+
+.shelved-img { 
+  pointer-events: none;
+  opacity: 40%;
+}
+
+.shelved-text { 
+  color: gray;
+  font-weight: 400;
+}
+
+.shelf-disp {
+  width: 25%;
+  padding: 0px 10px;
+}
+
+.empty {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  width: 25%;
+  padding: 0px 10px;
+}
+
+.shelf-divider {
+  background-color: #FF9B42;
+  height: 3px;
+  border: 0px;
+}
+
+.clear-shelf { 
+  background: none;
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 2em;
+}
+
+.clear-shelf:hover { 
+  background: rgb(167, 167, 167);
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.searchbar {
+  margin-bottom: 1em;
+}
+
+.search-box { 
+  background: white;
+  border: 1px solid gray;
+  border-radius: 8px;
+  height: 2em;
+  margin-right: 10px;
+}
+
+.search-btn { 
+  background: #97c0d6;
+  border: 1px solid gray;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 4em;
+  height: 2em;
+  margin-right: 5px;
+}
+
+.search-btn:hover { 
+  background: rgb(167, 167, 167);
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.empty-search {
+  display: none;
+}
